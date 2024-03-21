@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Jost";
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 249, 240);
+    margin-right: 2%;
+    margin-left:2%;
+}
+
+
+nav{
+    margin-top: 1.5%;
+    font-size: 18px;
+    border-bottom: 5px;
+    
+}
+
+.nav-link{
+    float: right;
+}
+
+#logo{
+    font-family: "Roboto Flex";
+    font-weight: bold;
+    font-size: 120%;
+}
+
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+#design:hover{
+    color: rgb(129, 0, 90) ;
+}
+#dev:hover{
+    color: rgb(0, 129, 120) ;
+}
+#mgt:hover{
+    color: rgb(129, 92, 0) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ltd{
+    font-size: 1.5em;
+    color: rgb(0, 102, 123);
+}
+
+.sm-container{
+    padding: 2% 0%;
+}
+
+.icons{
+    margin-top: 5%;
+    padding-right:10%;
+}
+
+.btn{
+    font-size: 1.5em;
+    padding: 1% 3%;
+    border-radius: 5px;
+    color: black; 
+    border: 0.08em solid #333333;
+}
+
+.btn:hover{
+    background-color: #333333 ;
+    font-size: 1.5em;
+    padding: 1% 3%;
+    border-radius: 5px;
+    color:rgb(255, 249, 240) ;
+}
